@@ -2,8 +2,6 @@
 [create directories microblog and app, so 'md app' and 'md microblog']
 python -m venv venv [only needs to be run once in initial setup, and is different from 'md' because it pulls in all the python venv code to the new folder]
 
-cd microblog
-
 venv\Scripts\activate
 
 pip install flask   --if you try to install flask outside of the virtual environment you'll hit errors with access rights, may not be required every time
