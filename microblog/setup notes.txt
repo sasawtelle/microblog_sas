@@ -13,3 +13,5 @@ set FLASK_APP=microblog.py
 flask run
 
 My setting had been to C:\Users\sas4hn\AppData\Local\Continuum\anaconda3\pythonw.exe. I changed it to C:\Program Files\Python36\python.exe
+
+this is to test the git integration
