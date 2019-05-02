@@ -3,15 +3,7 @@
 python -m venv venv [only needs to be run once in initial setup, and is different from 'md' because it pulls in all the python venv code to the new folder]
 
 venv\Scripts\activate
-
 pip install flask   --if you try to install flask outside of the virtual environment you'll hit errors with access rights, may not be required every time
-
-[build out the program with microblog.py being the main file]
-
+pip install flask-wtf
 set FLASK_APP=microblog.py
-
 flask run
-
-My setting had been to C:\Users\sas4hn\AppData\Local\Continuum\anaconda3\pythonw.exe. I changed it to C:\Program Files\Python36\python.exe
-
-this is to test the git integration
